@@ -2,26 +2,31 @@
 
 **Have i failed?** — a six-year live countdown to September 24, 2032.
 
-This is the exact same UI and lobby music experience from the original workspace, published as a static site for GitHub Pages.
+Built by **Jexxz**.
 
-## Live site
+## Live website (searchable & public)
 
-Once GitHub Pages is enabled: https://jexxzyzlex-engr.github.io/youaretheonlyone/
+**https://jexxzyzlex-engr.github.io/youaretheonlyone/**
 
-## Song (required for lobby music)
+(GitHub Pages — enable under Settings → Pages → Deploy from branch `main` / root if the link is not live yet.)
 
-Upload `xevel.mp3` (the Platinum Long Ver. from your workspace) to the **root** of this repository so the lobby music works. The audio code and volume dock UI are fully preserved.
+## What you get
 
-You can drag-and-drop the file on GitHub:
-1. Open the repo
-2. Click "Add file" → "Upload files"
-3. Drop `xevel.mp3` and commit
+- Live countdown (days / hours / minutes / seconds) to **September 24, 2032 21:14 PDT**
+- Gold analog clock that runs on remaining time
+- Stage curtain background (CSS — never missing)
+- World time (UTC + local)
+- Progress bar from Sept 24, 2026 → 2032
+- Lobby audio: soft ambient pad + second ticks (Web Audio API — never broken, no external files required)
+- Volume dock (mute / up / down, remembers preference)
+- Fully self-contained single HTML file
 
-## Enable GitHub Pages
+## Quote
 
-1. Go to the repository **Settings → Pages**
-2. Source: **Deploy from a branch**
-3. Branch: `main` / folder: `/ (root)`
-4. Save
+> From 6 years ago to  
+> You from Today  
+> — Jexxz
 
-The site will be live at the URL above after a minute or two.
+## Source
+
+Open `index.html` — that is the entire site.
